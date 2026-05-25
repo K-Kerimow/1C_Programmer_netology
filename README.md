@@ -1,6 +1,6 @@
 # 1C_Programmer_netology
 # Управление ИТ-Фирмой (Учебный проект)
-
+https://github.com/K-Kerimow/1C_Programmer_netology/blob/main/Configuration.xml
 Конфигурация для автоматизации малого предприятия. Реализованы блоки продаж, закупок, склада и зарплаты.
 
 ## Ключевые особенности:
