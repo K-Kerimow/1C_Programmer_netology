@@ -14,7 +14,7 @@ https://github.com/K-Kerimow/1C_Programmer_netology/blob/main/Configuration.xml
 - СКД
 - Регистры накопления, бухгалтерии, расчета
 
-#Загрузка номенклатуры из CSV
+# Загрузка номенклатуры из CSV
 
 [Загрузка номенклатуры](https://github.com/K-Kerimow/1C_Programmer_netology/blob/main/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9.epf)
 Обработка для импорта товаров из CSV-файла сайта в справочник «Номенклатура». Автоматизирует создание элементов, распределение по группам и привязку видов продукции.
