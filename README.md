@@ -19,6 +19,10 @@ https://github.com/K-Kerimow/1C_Programmer_netology/blob/main/Configuration.xml
 - Регистры накопления, бухгалтерии, расчета
 
 # Загрузка номенклатуры из CSV
+<img width="833" height="448" alt="изображение" src="https://github.com/user-attachments/assets/52086239-a889-4037-adf0-b0e872cae0d1" />
+
+<img width="303" height="617" alt="изображение" src="https://github.com/user-attachments/assets/03bca91d-75e7-4217-b7d2-7bbfe3305922" />
+
 
 [Загрузка номенклатуры](https://github.com/K-Kerimow/1C_Programmer_netology/blob/main/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9.epf)
 Обработка для импорта товаров из CSV-файла сайта в справочник «Номенклатура». Автоматизирует создание элементов, распределение по группам и привязку видов продукции.
