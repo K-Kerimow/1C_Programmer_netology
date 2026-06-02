@@ -9,8 +9,10 @@ https://github.com/K-Kerimow/1C_Programmer_netology/blob/main/Configuration.xml
 - <img width="1648" height="667" alt="изображение" src="https://github.com/user-attachments/assets/26c4a0f2-1467-42c7-926f-ee8e22f320cb" />
 
 - **Архитектура**: Клиент-серверное взаимодействие, общие модули, функциональные опции.
-- **Отчеты**: СКД (Взаиморасчеты, Движение товаров).
+- **Отчеты**: СКД (Взаиморасчеты, Движение товаров, оборотно сальдовая ведомость).
 - <img width="1001" height="681" alt="изображение" src="https://github.com/user-attachments/assets/2992c0c3-ec7c-4be4-8cb0-c6cf17b12a4e" />
+
+- <img width="896" height="672" alt="изображение" src="https://github.com/user-attachments/assets/ac71c829-4b05-4b03-9325-47ccf3fcbdce" />
 
 
 ## Технологии:
