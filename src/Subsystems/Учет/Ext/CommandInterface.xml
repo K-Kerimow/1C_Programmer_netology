@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsOrder>
+		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<SubsystemsOrder>
+		<Subsystem>48549c32-920a-4373-a4e4-41ec9bff8b6b</Subsystem>
+	</SubsystemsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+	</GroupsOrder>
+</CommandInterface>

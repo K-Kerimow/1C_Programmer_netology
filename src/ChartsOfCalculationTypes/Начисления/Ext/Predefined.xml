@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.20">
+	<Item id="8832de01-467e-4541-b872-c6e104410216">
+		<Name>Больничный</Name>
+		<Code/>
+		<Description>Больничный</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="a497cf18-5c45-4492-bda5-d28dcb5501eb">
+		<Name>ОплатаПоОкладу</Name>
+		<Code/>
+		<Description>Оплата по окладу</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.Начисления.Больничный</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.Начисления.Отпуск</CalculationType>
+		</Displaced>
+	</Item>
+	<Item id="cf27e7f9-c89a-436e-a68c-e79781ea0f1a">
+		<Name>Отпуск</Name>
+		<Code/>
+		<Description>Отпуск</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="e5f074a5-8d4c-4405-9b50-1c44d1050e77">
+		<Name>ПремияПроцентом</Name>
+		<Code/>
+		<Description>Премия процентом</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.Начисления.ОплатаПоОкладу</CalculationType>
+		</Base>
+		<Leading>
+			<CalculationType>ChartOfCalculationTypes.Начисления.ОплатаПоОкладу</CalculationType>
+		</Leading>
+	</Item>
+	<Item id="42fc0ae6-1f7e-436e-9c99-dcaba51645e2">
+		<Name>ФиксированнаяПремия</Name>
+		<Code/>
+		<Description>Фиксированная премия</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+</PredefinedData>

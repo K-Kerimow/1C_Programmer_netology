@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsOrder>
+		<Command name="CalculationRegister.Зарплата.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Календарь.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="ChartOfCalculationTypes.Начисления.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Календарь.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="ChartOfCalculationTypes.Начисления.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ЗаполнениеКалендаря.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.Зарплата.Subsystem.Начисления</Subsystem>
+	</SubsystemsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+		<Group>ActionsPanelCreate</Group>
+		<Group>ActionsPanelTools</Group>
+	</GroupsOrder>
+</CommandInterface>

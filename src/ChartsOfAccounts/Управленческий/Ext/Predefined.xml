@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.20">
+	<Item id="29641f44-3d7f-465c-b155-e384b06ab7ee">
+		<Name>Товары</Name>
+		<Code>41. </Code>
+		<Description>Товары</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>41. </Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">true</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="97c014e9-386e-4683-89a0-956f156b4738">
+		<Name>ДенежныеСредства</Name>
+		<Code>50. </Code>
+		<Description>Денежные средства</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>50. </Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+	<Item id="db45eb96-952b-4805-a590-9828816eaea5">
+		<Name>РасчетыСПоставщиками</Name>
+		<Code>60. </Code>
+		<Description>Расчеты с поставщиками</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>60. </Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="4888dcf7-7e9a-443e-b4a0-7ebf667c6fb2">
+		<Name>РасчетыСПокупателями</Name>
+		<Code>62. </Code>
+		<Description>Расчеты с покупателями</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>62. </Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="5fe496b3-2ed8-4647-9c53-7143c7136440">
+		<Name>РасчетыССотрудниками</Name>
+		<Code>70. </Code>
+		<Description>Расчеты с сотрудниками</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>70. </Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes>
+			<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Сотрудники">
+				<Turnover>false</Turnover>
+				<AccountingFlags/>
+			</ExtDimensionType>
+		</ExtDimensionTypes>
+	</Item>
+	<Item id="f8e79d67-aa86-422c-9d48-a3b9e0cf3243">
+		<Name>ПрибылиИУбытки</Name>
+		<Code>90. </Code>
+		<Description>Продажи</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order>90. </Order>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="d98aa327-02bb-4f63-be85-b271f1627b3b">
+				<Name>Выручка</Name>
+				<Code>90.1</Code>
+				<Description>Выручка</Description>
+				<AccountType>Passive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90.1</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+			<Item id="5fe15fac-1349-43ad-91bb-27efad3bcd6b">
+				<Name>Расходы</Name>
+				<Code>90.2</Code>
+				<Description>Расходы</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>90.2</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
